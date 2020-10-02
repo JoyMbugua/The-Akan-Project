@@ -1,0 +1,12 @@
+header {
+    background-image: url(../Images/kent.jpeg);
+    color: white;
+}
+h1 {
+    background-color: black;
+    width: 15%;
+}
+em {
+    font-style: italic;
+    font-size: small;
+}
