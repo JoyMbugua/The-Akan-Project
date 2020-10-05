@@ -41,37 +41,37 @@ function AkanName() {
     var gender = document.querySelector(input[name="gender"],checked).value
     
     let femaleName = ""
-    if(gender === female && Day === "Sunday") {
+    if(gender === female && theDay === "Sunday") {
       femaleName = "Akosua"
-    } else if (gender === female && Day === "Monday") {
+    } else if (gender === female && theDay === "Monday") {
       femaleName = "Adwoa"
-    } else if (gender === female && Day === "Tueday") {
+    } else if (gender === female && theDay === "Tueday") {
       femaleName = "Abenaa"
-    } else if (gender === female && Day === "Wednesday") {
+    } else if (gender === female && theDay === "Wednesday") {
       femaleName = "Akua"
-    } else if (gender === female && Day === "Thursday") {
+    } else if (gender === female && theDay === "Thursday") {
       femaleName = "Yaa"
-    } else if (gender === female && Day === "Friday") {
+    } else if (gender === female && theDay === "Friday") {
       femaleName = "Afua"
     } else {
       femaleName = "Ama"
     }
         //if they are male
     let maleName = ""
-    if(gender === male && Day === "Sunday") {
+    if(gender === male && theDay === "Sunday") {
         maleName = "Kwasi"
-    } else if (gender === male && Day === "Monday") {
+    } else if (gender === male && theDay === "Monday") {
     maleName = "Kwadwo"
-    } else if (ggender === male && Day === "Tuesday") {
+    } else if (ggender === male && theDay === "Tuesday") {
     maleName = "Kwabena"
-    } else if (gender === male && Day === "Wednesday") {
+    } else if (gender === male && theDay === "Wednesday") {
     maleName = "Kwaku"
-    } else if (gender === male && Day === "Thursday") {
+    } else if (gender === male && theDay === "Thursday") {
     maleName = "Yaw"
-    } else if (gender === male && Day === "Friday") {
+    } else if (gender === male && theDay === "Friday") {
     maleName = "Kofi"
     } else {
-    AkanName = "Kwame"
+    maleName = "Kwame"
 } 
 }
 function displayResult() {
