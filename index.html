@@ -12,7 +12,7 @@
     <header>
         <h1>The Akan Machine</h1>
     </header>
-    <p>Ghana is a West African country that is known for its rich culture. The country has approximately one hundred tribes! with the biggest being the Akan. 
+      <p>Ghana is a West African country that is known for its rich culture. The country has approximately one hundred tribes! with the biggest being the Akan. 
         One of the cultures of this tribe is allocating names at birth based on the day of the week. If you would like to find out what would be your Akan name just 
         fill the form below and see! easy peasy!</p>
         <div class="container">   
@@ -74,30 +74,35 @@
                     <option value="11">November</option>
                     <option value="12">December</option>
                 </select> 
+
                 <!--year-->
                 <div>
                   <label for="year">Year:</label>
                   <input class="form-control" id="year" size=4 min="1900">
               </div>
+
               <!--Gender-->
+
               <label class="radio-inline">
                 <input type="radio" name="female">Female
-            </label> <br>
-            <label class="radio-inline">
-              <input type="radio" name="male">Male
-            </label> <br>
+              </label> <br>
+
+              <label class="radio-inline">
+                <input type="radio" name="male">Male
+              </label> <br>
 
             <!--button-->
             <button  onsubmit="displayResult()" class="btn btn-success btn-lg">Submit</button>
             <!--results-->
             <br> <br>
+
             <h3>Your Akan Name:</h3> <br>
             <p id="result">----------</p>
               </form>
-
           </div>
         </div>
       </div> 
+      
     <script src="js/main.js"></script>
 </body>
 </html>

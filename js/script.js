@@ -62,7 +62,7 @@ function AkanName() {
         maleName = "Kwasi"
     } else if (gender === male && theDay === "Monday") {
     maleName = "Kwadwo"
-    } else if (ggender === male && theDay === "Tuesday") {
+    } else if (gender === male && theDay === "Tuesday") {
     maleName = "Kwabena"
     } else if (gender === male && theDay === "Wednesday") {
     maleName = "Kwaku"
