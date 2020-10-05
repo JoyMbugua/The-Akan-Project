@@ -74,4 +74,8 @@ function AkanName() {
     AkanName = "Kwame"
 } 
 }
+function displayResult() {
+    document.getElementById('result').innerHTML = "day of birth" + "=" dayOfWeek(m,d,y) + ' ' akanName();
+ } 
+ 
 
