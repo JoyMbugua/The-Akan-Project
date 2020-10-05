@@ -56,3 +56,22 @@ function AkanName() {
     } else {
       femaleName = "Ama"
     }
+        //if they are male
+    let maleName = ""
+    if(gender === male && Day === "Sunday") {
+        maleName = "Kwasi"
+    } else if (gender === male && Day === "Monday") {
+    maleName = "Kwadwo"
+    } else if (ggender === male && Day === "Tuesday") {
+    maleName = "Kwabena"
+    } else if (gender === male && Day === "Wednesday") {
+    maleName = "Kwaku"
+    } else if (gender === male && Day === "Thursday") {
+    maleName = "Yaw"
+    } else if (gender === male && Day === "Friday") {
+    maleName = "Kofi"
+    } else {
+    AkanName = "Kwame"
+} 
+}
+
