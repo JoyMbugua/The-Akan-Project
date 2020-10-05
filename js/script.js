@@ -36,3 +36,23 @@ function dayOfWeek (d, m, y) {
         alert('seems something is wrong!') 
      }
 }
+
+function AkanName() {
+    var gender = document.querySelector(input[name="gender"],checked).value
+    
+    let femaleName = ""
+    if(gender === female && Day === "Sunday") {
+      femaleName = "Akosua"
+    } else if (gender === female && Day === "Monday") {
+      femaleName = "Adwoa"
+    } else if (gender === female && Day === "Tueday") {
+      femaleName = "Abenaa"
+    } else if (gender === female && Day === "Wednesday") {
+      femaleName = "Akua"
+    } else if (gender === female && Day === "Thursday") {
+      femaleName = "Yaa"
+    } else if (gender === female && Day === "Friday") {
+      femaleName = "Afua"
+    } else {
+      femaleName = "Ama"
+    }
