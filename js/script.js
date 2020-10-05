@@ -75,7 +75,7 @@ function AkanName() {
 } 
 }
 function displayResult() {
-    document.getElementById('result').innerHTML = "day of birth" + "=" dayOfWeek(m,d,y) + ' ' akanName();
+    document.getElementById('result').innerHTML = "day of birth" + "=" dayOfWeek(m,d,y) + "" akanName();
  } 
  
 
