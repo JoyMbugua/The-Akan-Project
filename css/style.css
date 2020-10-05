@@ -10,3 +10,6 @@ em {
     font-style: italic;
     font-size: small;
 }
+.form-group {
+    display: inline-block;
+}
