@@ -6,10 +6,12 @@ h1 {
     background-color: black;
     width: 15%;
 }
-em {
-    font-style: italic;
-    font-size: small;
+.container {
+    max-width: 330px;
+    margin: 0 auto;
+    background-color: black;
+    color: white;
 }
-.form-group {
-    display: inline-block;
+.panel-heading {
+    background-color: green;
 }
